@@ -1,0 +1,51 @@
+{
+  "Slider_Fields": {
+    "Temperature": [
+      -25,
+      109
+    ],
+    "Humidity": [
+      20,
+      109
+    ],
+    "WindSpeed": [
+      0,
+      49
+    ],
+    "Precipitation": [
+      0,
+      109
+    ],
+    "AtmosphericPressure": [
+      800,
+      1200
+    ],
+    "UVIndex": [
+      0,
+      14
+    ],
+    "Visibility": [
+      0,
+      20
+    ]
+  },
+  "SingleSelect_Fields": {
+    "CloudCoverDescription": [
+      "clear",
+      "cloudy",
+      "overcast",
+      "partly cloudy"
+    ],
+    "Season": [
+      "Autumn",
+      "Spring",
+      "Summer",
+      "Winter"
+    ],
+    "Location": [
+      "coastal",
+      "inland",
+      "mountain"
+    ]
+  }
+}
