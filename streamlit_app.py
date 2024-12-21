@@ -19,5 +19,5 @@ user_options
 
 if st.button("Output Prediction"):
     data=json.dumps(user_options,indent=2)
-    r = requests.post('http://127.0.0.1:8000/predict', data=data)
+    r = requests.post('http://146.190.73.80:8002/predict', data=data)
     st.write(r.json())
